@@ -1,0 +1,24 @@
+5 12 1000 3 10
+0 dc02 12434 # nodeID hostName listenPort
+1 dc03 12353
+2 dc04 13233
+3 dc05 16232
+4 dc06 12733
+1 3 4 #space delimited list of neighbors for node 0
+0 2 3 4 #space delimited list of neighbors for node 1
+1 3 #... node 2
+0 1 2 4 #... node 3
+0 1 3 #... node 4
+1 3 #nodeID numCheckpoints
+0 2
+1 1
+4 5
+2 2
+0 3
+3 2
+4 4
+0 2
+3 7
+2 3
+1 12
+
